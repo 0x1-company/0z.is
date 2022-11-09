@@ -28,12 +28,12 @@ export default function Home() {
             0z.is/vitalik.eth
           </a>
           <br />
-          <a target='_blank' href='https://0z.is/twitter/ens.eth'>
-            0z.is/twitter/ens.eth
+          <a target='_blank' href='https://0z.is/ens.eth/twitter'>
+            0z.is/ens.eth/twitter
           </a>
           <br />
-          <a target='_blank' href='https://0z.is/github/ens.eth'>
-            0z.is/github/ens.eth
+          <a target='_blank' href='https://0z.is/ens.eth/github'>
+            0z.is/ens.eth/github
           </a>
         </div>
       </main>
