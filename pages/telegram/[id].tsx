@@ -12,8 +12,8 @@ export default page
 export const getServerSideProps: GetServerSideProps = async (context) => {
   const ens = context.query.id as string
   const resolver = await provider.getResolver(ens)
-  const url = await resolver?.getText('url')
-  if (url === undefined) {
+  const telegram = await resolver?.getText('org.telegram')
+  if (telegram === undefined) {
     return {
       redirect: {
         permanent: false,
@@ -24,7 +24,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
   return {
     redirect: {
       permanent: false,
-      destination: url,
+      destination: telegram.includes('https://telegram.com') ? telegram : `https://telegram.com/${telegram}`,
     },
   }
 }
