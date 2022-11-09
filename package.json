@@ -14,6 +14,7 @@
     "@types/react-dom": "18.0.8",
     "ethers": "^5.7.2",
     "next": "13.0.2",
+    "nextjs-google-analytics": "^2.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.8.4"
