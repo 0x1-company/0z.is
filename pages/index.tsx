@@ -6,7 +6,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>0z.is</title>
-        <meta name="description" content="0z.is redirects to URL registered with ENS" />
+        <meta name="description" content="Redirect to URL set in ENS text record" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -14,7 +14,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <span style={{ color: '#0070f3'}}>0z.is</span>
         </h1>
-        <h3>0z.is redirects to URL registered with ENS</h3>
+        <h3>Redirect to URL set in ENS text record</h3>
 
         <div className={styles.description}>
           <a target='_blank' href='https://0z.is/vitalik.eth'>
