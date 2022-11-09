@@ -13,7 +13,7 @@ export default function Home() {
         <meta name="twitter:creator" content="@0x1company" />
         <meta property="og:title" content="0z.is" />
         <meta property="og:description" content="Redirect to URL set in ENS text record" />
-        <meta property="og:image" content="https://www.0z.is/ogp.png" />
+        <meta property="og:image" content="https://0z.is/ogp.png" />
       </Head>
 
       <main className={styles.main}>
