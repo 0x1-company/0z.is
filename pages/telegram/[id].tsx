@@ -24,7 +24,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
   return {
     redirect: {
       permanent: false,
-      destination: telegram.includes('https://telegram.com') ? telegram : `https://telegram.com/${telegram}`,
+      destination: telegram.includes('t.me/') ? telegram : `t.me/${telegram}`,
     },
   }
 }
