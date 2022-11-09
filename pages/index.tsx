@@ -14,6 +14,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <span style={{ color: '#0070f3'}}>0z.is</span>
         </h1>
+        <h3>0z.is redirects to URL registered with ENS</h3>
 
         <div className={styles.description}>
           <a target='_blank' href='https://0z.is/vitalik.eth'>
@@ -26,6 +27,14 @@ export default function Home() {
           <br />
           <a target='_blank' href='https://0z.is/0x1.company'>
             0z.is/0x1.company
+          </a>
+          <br />
+          <a target='_blank' href='https://0z.is/twitter.0x1.company'>
+            0z.is/twitter.0x1.company
+          </a>
+          <br />
+          <a target='_blank' href='https://0z.is/github.0x1.company'>
+            0z.is/github.0x1.company
           </a>
         </div>
       </main>
