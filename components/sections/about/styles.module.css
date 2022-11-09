@@ -1,0 +1,21 @@
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+  
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+  
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+ 
+.description a {
+  color: #0070f3;
+  text-decoration: none;
+}

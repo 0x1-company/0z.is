@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import AboutSection from '../components/sections/about'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -18,24 +19,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <span style={{ color: '#0070f3'}}>0z.is</span>
-        </h1>
-        <h3>0z.is/[your ENS]/[telegram,twitter,github or url]</h3>
-
-        <div className={styles.description}>
-          <a target='_blank' href='https://0z.is/vitalik.eth'>
-            0z.is/vitalik.eth
-          </a>
-          <br />
-          <a target='_blank' href='https://0z.is/ens.eth/twitter'>
-            0z.is/ens.eth/twitter
-          </a>
-          <br />
-          <a target='_blank' href='https://0z.is/ens.eth/github'>
-            0z.is/ens.eth/github
-          </a>
-        </div>
+        <AboutSection />
       </main>
 
       <footer className={styles.footer}>
