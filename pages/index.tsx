@@ -11,6 +11,7 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@0x1company" />
         <meta name="twitter:creator" content="@0x1company" />
+        <meta name="twitter:image" content="https://0z.is/ogp.png" />
         <meta property="og:title" content="0z.is" />
         <meta property="og:description" content="Redirect to URL set in ENS text record" />
         <meta property="og:image" content="https://0z.is/ogp.png" />
