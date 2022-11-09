@@ -7,7 +7,6 @@ export default function Home() {
       <Head>
         <title>0z.is</title>
         <meta name="description" content="Redirect to URL set in ENS text record" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
