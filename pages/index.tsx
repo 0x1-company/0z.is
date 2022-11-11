@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import AboutSection from '../components/sections/about'
+import CTASection from '../components/sections/cta'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <AboutSection />
+        <CTASection />
       </main>
 
       <footer className={styles.footer}>
