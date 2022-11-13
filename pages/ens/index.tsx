@@ -55,7 +55,7 @@ const ENSPage = ({
               </Td>
             </Tr>
             <Tr>
-              <Td>com.github</Td>
+              <Td>github</Td>
               <Td isNumeric>
                 <Link
                   isExternal
@@ -66,7 +66,7 @@ const ENSPage = ({
               </Td>
             </Tr>
             <Tr>
-              <Td>org.telegram</Td>
+              <Td>telegram</Td>
               <Td isNumeric>
                 <Link
                   isExternal
@@ -77,7 +77,7 @@ const ENSPage = ({
               </Td>
             </Tr>
             <Tr>
-              <Td>com.twitter</Td>
+              <Td>twitter</Td>
               <Td isNumeric>
                 <Link
                   isExternal
